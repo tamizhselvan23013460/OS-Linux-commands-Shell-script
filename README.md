@@ -981,23 +981,24 @@ $ ./fornested1.sh
 
  ## OUTPUT
 
- 
-cat forbreak.sh 
-```bash
+ cat forcontinue.sh
+ ```
 #!/bin/bash
-# breaking out of a for loop
+#breaking out of a for loop
 for var1 in 1 2 3 4 5
 do
 if [ $var1 -eq 3 ]
 then
-break
+continue
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
 
 $ chmod 755 forbreak.sh
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/aa329adc-c2f8-48c3-b66f-068ccf7bff4d)
+
 
 $ ./forbreak.sh 
 
@@ -1013,9 +1014,13 @@ echo "Hello $name, welcome to my program. "
  ```
  
 $ chmod 755 exread.sh 
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/05bb03fb-37fc-4a8c-a815-a119adbac43a)
+
  
 $ ./exread.sh 
 ## OUTPUT
+
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/c86008f8-d9df-4faf-81bb-c2292e4f5a0a)
 
 
  cat exread1.sh
@@ -1027,12 +1032,11 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-
-## OUTPUT
-
-
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/1bc4f84d-4ea0-4c90-a779-46ae2b6b8ea9)
 
 $ ./exread1.sh 
+
+ ## OUTPUT
  
 cat funcex.sh
 ```bash
@@ -1052,8 +1056,9 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
  ./funcex.sh 1 2
+
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/40d63c8c-959d-4d6d-9f51-e483ce702980)
 
  
 cat argshift.sh
@@ -1068,7 +1073,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/012948cb-1cdb-406c-99bb-0dcf25cba887)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1085,7 +1091,9 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+
+ ![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/f743a406-c6d6-4a59-9bc3-3bac2a7c5c03)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1099,7 +1107,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
+ ![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/543511ca-44c6-4aea-8f83-1022cae185e7)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1114,6 +1123,9 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/be27ae73-f879-4573-a644-ee6970c7f301)
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1127,7 +1139,12 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/d14b2642-013f-4cca-96bc-67351f43c8ed)
+
 awk -f nc.awk data.dat
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/a1388203-c1b4-45b2-86b3-8d3845eb0e84)
+
 ## OUTPUT 
  
 cat > palindrome.sh
@@ -1156,6 +1173,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/tamizhselvan23013460/OS-Linux-commands-Shell-script/assets/150231370/54d3f332-5c73-4854-86e7-7a91400bb65a)
 
 
 # RESULT:
